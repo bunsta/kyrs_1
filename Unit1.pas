@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, Grids;
+  Dialogs, StdCtrls, Grids, sSkinManager, sLabel;
 
 type
   TForm1 = class(TForm)
@@ -12,13 +12,15 @@ type
     Button2: TButton;
     Button3: TButton;
     Button4: TButton;
-    Label1: TLabel;
     Button5: TButton;
+    sSkinManager1: TsSkinManager;
+    sLabel1: TsLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -57,6 +59,11 @@ end;
 procedure TForm1.Button5Click(Sender: TObject);
 begin
 Close;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+sskinmanager1.skinname:=' Steam ';
 end;
 
 end.

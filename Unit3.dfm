@@ -1,8 +1,8 @@
 object Form3: TForm3
-  Left = 146
-  Top = 146
-  Width = 870
-  Height = 640
+  Left = 297
+  Top = 204
+  Width = 712
+  Height = 415
   Caption = #1040#1042#1058#1054#1052#1054#1041#1030#1051#1030
   Color = clTeal
   Font.Charset = DEFAULT_CHARSET
@@ -15,7 +15,7 @@ object Form3: TForm3
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 352
+    Left = 264
     Top = 16
     Width = 161
     Height = 33
@@ -30,7 +30,7 @@ object Form3: TForm3
   object StringGrid1: TStringGrid
     Left = 40
     Top = 64
-    Width = 681
+    Width = 561
     Height = 161
     Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goTabs]
     TabOrder = 0
@@ -44,7 +44,7 @@ object Form3: TForm3
   end
   object Button1: TButton
     Left = 40
-    Top = 368
+    Top = 264
     Width = 129
     Height = 25
     Caption = #1089#1087#1080#1089#1086#1082
@@ -58,8 +58,8 @@ object Form3: TForm3
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 216
-    Top = 368
+    Left = 200
+    Top = 264
     Width = 115
     Height = 25
     Caption = #1079#1072#1087#1080#1089#1072#1090#1080
@@ -73,8 +73,8 @@ object Form3: TForm3
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 384
-    Top = 368
+    Left = 368
+    Top = 264
     Width = 201
     Height = 25
     Caption = #1074#1080#1076#1072#1083#1080#1090#1080' '#1088#1103#1076#1086#1082
@@ -88,8 +88,8 @@ object Form3: TForm3
     OnClick = Button3Click
   end
   object Button4: TButton
-    Left = 640
-    Top = 432
+    Left = 592
+    Top = 312
     Width = 75
     Height = 25
     Caption = #1085#1072#1079#1072#1076
@@ -97,8 +97,8 @@ object Form3: TForm3
     OnClick = Button4Click
   end
   object Edit1: TEdit
-    Left = 640
-    Top = 368
+    Left = 576
+    Top = 264
     Width = 49
     Height = 21
     TabOrder = 5

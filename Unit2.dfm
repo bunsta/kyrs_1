@@ -1,8 +1,8 @@
 object Form2: TForm2
-  Left = 109
-  Top = 240
-  Width = 824
-  Height = 569
+  Left = 147
+  Top = 78
+  Width = 750
+  Height = 408
   Caption = #1042#1054#1044#1030#1031
   Color = clTeal
   Font.Charset = DEFAULT_CHARSET
@@ -15,8 +15,8 @@ object Form2: TForm2
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 392
-    Top = 8
+    Left = 304
+    Top = 16
     Width = 73
     Height = 33
     Caption = #1042#1054#1044#1030#1031
@@ -29,7 +29,7 @@ object Form2: TForm2
   end
   object Button1: TButton
     Left = 40
-    Top = 368
+    Top = 264
     Width = 129
     Height = 25
     Caption = #1089#1087#1080#1089#1086#1082
@@ -58,8 +58,8 @@ object Form2: TForm2
       64)
   end
   object Button2: TButton
-    Left = 216
-    Top = 368
+    Left = 208
+    Top = 264
     Width = 115
     Height = 25
     Caption = #1079#1072#1087#1080#1089#1072#1090#1080
@@ -73,8 +73,8 @@ object Form2: TForm2
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 384
-    Top = 368
+    Left = 368
+    Top = 264
     Width = 201
     Height = 25
     Caption = #1074#1080#1076#1072#1083#1080#1090#1080' '#1088#1103#1076#1086#1082
@@ -88,15 +88,15 @@ object Form2: TForm2
     OnClick = Button3Click
   end
   object Edit1: TEdit
-    Left = 640
-    Top = 368
+    Left = 576
+    Top = 264
     Width = 49
     Height = 21
     TabOrder = 4
   end
   object Button4: TButton
-    Left = 640
-    Top = 432
+    Left = 632
+    Top = 320
     Width = 75
     Height = 25
     Caption = #1085#1072#1079#1072#1076
